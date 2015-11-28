@@ -58,7 +58,7 @@ public class MainActivity extends BaseActivity {
         }
 
         if (id == R.id.action_editar) {
-
+            intent = new Intent(this, EditarActivity.class);
 
         }
         startActivity(intent);
